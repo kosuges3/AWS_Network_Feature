@@ -1,10 +1,10 @@
-<mxfile modified="2020-07-30T17:51:23.567Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="-9KdHbEtLuJvM7tg4HAN" version="13.5.7" type="github" pages="7">
+<mxfile modified="2020-07-30T18:05:27.280Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="obDzG6nONgR5yJIWLxS8" version="13.5.7" type="github" pages="7">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Step2">
     <mxGraphModel dx="782" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="eLTAIlkex-EtkBtZR3sa-1" value="Corporate data center" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_corporate_data_center;strokeColor=#5A6C86;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#5A6C86;dashed=0;" vertex="1" parent="1">
+        <mxCell id="eLTAIlkex-EtkBtZR3sa-1" value="Corporate Network" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_corporate_data_center;strokeColor=#5A6C86;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#5A6C86;dashed=0;" vertex="1" parent="1">
           <mxGeometry x="11.5" y="175" width="188.5" height="305" as="geometry" />
         </mxCell>
         <mxCell id="eLTAIlkex-EtkBtZR3sa-2" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3E;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;" vertex="1" parent="1">
@@ -57,8 +57,8 @@
         <mxCell id="7OVz4w7n9kzEPWy-4BBC-5" value="2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="845.5" y="230.5" width="40" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="7OVz4w7n9kzEPWy-4BBC-13" value="ユーザーがDirectConnect経由で仕事量システムのサイトにアクセスする" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="896.5" y="171.5" width="449" height="118" as="geometry" />
+        <mxCell id="7OVz4w7n9kzEPWy-4BBC-13" value="ユーザーがInternet経由で仕事量システムのサイトにアクセスする&lt;br&gt;InternetGatewayにより社内IPからのみ接続可能とする" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="896.5" y="171.5" width="449" height="48.5" as="geometry" />
         </mxCell>
         <mxCell id="7OVz4w7n9kzEPWy-4BBC-14" value="&lt;span&gt;ELBがロードバランシングしユーザーを各EC2インスタンスに振分け&lt;br&gt;EC2はアクセス負荷に応じてスケールアウト/スケールイン&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="897.5" y="230.5" width="450" height="49.5" as="geometry" />
@@ -159,8 +159,11 @@
       <root>
         <mxCell id="7zb_3AtDZCGfjKm9eKqo-0" />
         <mxCell id="7zb_3AtDZCGfjKm9eKqo-1" parent="7zb_3AtDZCGfjKm9eKqo-0" />
-        <mxCell id="nDMCZCAZWfjh0QXqmagB-0" value="Corporate data center" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_corporate_data_center;strokeColor=#5A6C86;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#5A6C86;dashed=0;" vertex="1" parent="7zb_3AtDZCGfjKm9eKqo-1">
-          <mxGeometry x="11.5" y="175" width="188.5" height="305" as="geometry" />
+        <mxCell id="7zb_3AtDZCGfjKm9eKqo-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EAEDED;fontSize=22;fontColor=#FFFFFF;strokeColor=none;labelBackgroundColor=none;" parent="7zb_3AtDZCGfjKm9eKqo-1" vertex="1">
+          <mxGeometry x="827" y="160" width="539" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="l-oihTb3VTqlXHbLZuea-0" value="ユーザーがInternet経由で仕事量システムのサイトにアクセスする&lt;br&gt;InternetGatewayにより社内IPからのみ接続可能とする" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="7zb_3AtDZCGfjKm9eKqo-1">
+          <mxGeometry x="896.5" y="171.5" width="449" height="48.5" as="geometry" />
         </mxCell>
         <mxCell id="nDMCZCAZWfjh0QXqmagB-1" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3E;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;" vertex="1" parent="7zb_3AtDZCGfjKm9eKqo-1">
           <mxGeometry x="30" y="330" width="58" height="58" as="geometry" />
@@ -206,17 +209,11 @@
         <mxCell id="7zb_3AtDZCGfjKm9eKqo-9" value="" style="line;strokeWidth=2;html=1;fontSize=14;" parent="7zb_3AtDZCGfjKm9eKqo-1" vertex="1">
           <mxGeometry x="8" y="140.5" width="792" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="7zb_3AtDZCGfjKm9eKqo-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EAEDED;fontSize=22;fontColor=#FFFFFF;strokeColor=none;labelBackgroundColor=none;" parent="7zb_3AtDZCGfjKm9eKqo-1" vertex="1">
-          <mxGeometry x="827" y="160" width="539" height="240" as="geometry" />
-        </mxCell>
         <mxCell id="7zb_3AtDZCGfjKm9eKqo-11" value="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="7zb_3AtDZCGfjKm9eKqo-1" vertex="1">
           <mxGeometry x="845" y="172" width="40" height="38" as="geometry" />
         </mxCell>
         <mxCell id="7zb_3AtDZCGfjKm9eKqo-12" value="2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="7zb_3AtDZCGfjKm9eKqo-1" vertex="1">
           <mxGeometry x="845.5" y="230.5" width="40" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="7zb_3AtDZCGfjKm9eKqo-13" value="ユーザーがDirectConnect経由で仕事量システムのサイトにアクセスする" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="7zb_3AtDZCGfjKm9eKqo-1" vertex="1">
-          <mxGeometry x="896.5" y="171.5" width="449" height="118" as="geometry" />
         </mxCell>
         <mxCell id="7zb_3AtDZCGfjKm9eKqo-14" value="ELBがロードバランシングしユーザーを各EC2インスタンスに振分け&lt;br&gt;EC2はアクセス負荷に応じてスケールアウト/スケールイン" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="7zb_3AtDZCGfjKm9eKqo-1" vertex="1">
           <mxGeometry x="897.5" y="230.5" width="450" height="39.5" as="geometry" />
@@ -312,6 +309,9 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="5z4Jgqbv2YCfVZrUTV61-0" value="Corporate Network" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_corporate_data_center;strokeColor=#5A6C86;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#5A6C86;dashed=0;" vertex="1" parent="7zb_3AtDZCGfjKm9eKqo-1">
+          <mxGeometry x="11.5" y="175" width="188.5" height="305" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -320,9 +320,6 @@
       <root>
         <mxCell id="KXP0gGZPSVYxxyMcb6QJ-0" />
         <mxCell id="KXP0gGZPSVYxxyMcb6QJ-1" parent="KXP0gGZPSVYxxyMcb6QJ-0" />
-        <mxCell id="6KdHhSanKAf-e72FQgTF-0" value="Corporate data center" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_corporate_data_center;strokeColor=#5A6C86;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#5A6C86;dashed=0;" vertex="1" parent="KXP0gGZPSVYxxyMcb6QJ-1">
-          <mxGeometry x="11.5" y="175" width="188.5" height="305" as="geometry" />
-        </mxCell>
         <mxCell id="6KdHhSanKAf-e72FQgTF-1" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3E;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;" vertex="1" parent="KXP0gGZPSVYxxyMcb6QJ-1">
           <mxGeometry x="30" y="330" width="58" height="58" as="geometry" />
         </mxCell>
@@ -378,9 +375,6 @@
         </mxCell>
         <mxCell id="KXP0gGZPSVYxxyMcb6QJ-13" value="2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="KXP0gGZPSVYxxyMcb6QJ-1" vertex="1">
           <mxGeometry x="845.5" y="230.5" width="40" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="KXP0gGZPSVYxxyMcb6QJ-14" value="ユーザーがDirectConnect経由で仕事量システムのサイトにアクセスする" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="KXP0gGZPSVYxxyMcb6QJ-1" vertex="1">
-          <mxGeometry x="896.5" y="171.5" width="449" height="118" as="geometry" />
         </mxCell>
         <mxCell id="KXP0gGZPSVYxxyMcb6QJ-15" value="ELBがロードバランシングしユーザーを各EC2インスタンスに振分け&lt;br&gt;EC2はアクセス負荷に応じてスケールアウト/スケールイン" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="KXP0gGZPSVYxxyMcb6QJ-1" vertex="1">
           <mxGeometry x="897.5" y="230.5" width="450" height="39.5" as="geometry" />
@@ -513,6 +507,12 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="eQzC4YZjCAtANQtKfLRR-0" value="ユーザーがInternet経由で仕事量システムのサイトにアクセスする&lt;br&gt;InternetGatewayにより社内IPからのみ接続可能とする" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="KXP0gGZPSVYxxyMcb6QJ-1">
+          <mxGeometry x="896.5" y="171.5" width="449" height="48.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ppU0ZgUZPRo3CLWdXFO5-0" value="Corporate Network" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_corporate_data_center;strokeColor=#5A6C86;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#5A6C86;dashed=0;" vertex="1" parent="KXP0gGZPSVYxxyMcb6QJ-1">
+          <mxGeometry x="11.5" y="175" width="188.5" height="305" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -521,9 +521,6 @@
       <root>
         <mxCell id="p2nS1dNxd4ofnqSKSurf-0" />
         <mxCell id="p2nS1dNxd4ofnqSKSurf-1" parent="p2nS1dNxd4ofnqSKSurf-0" />
-        <mxCell id="sl9aU0_s-3gJpsaP4rYX-0" value="Corporate data center" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_corporate_data_center;strokeColor=#5A6C86;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#5A6C86;dashed=0;" vertex="1" parent="p2nS1dNxd4ofnqSKSurf-1">
-          <mxGeometry x="11.5" y="175" width="188.5" height="305" as="geometry" />
-        </mxCell>
         <mxCell id="sl9aU0_s-3gJpsaP4rYX-1" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3E;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;" vertex="1" parent="p2nS1dNxd4ofnqSKSurf-1">
           <mxGeometry x="30" y="330" width="58" height="58" as="geometry" />
         </mxCell>
@@ -579,9 +576,6 @@
         </mxCell>
         <mxCell id="p2nS1dNxd4ofnqSKSurf-14" value="2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="p2nS1dNxd4ofnqSKSurf-1" vertex="1">
           <mxGeometry x="845.5" y="230.5" width="40" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="p2nS1dNxd4ofnqSKSurf-15" value="ユーザーがDirectConnect経由で仕事量システムのサイトにアクセスする" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="p2nS1dNxd4ofnqSKSurf-1" vertex="1">
-          <mxGeometry x="896.5" y="171.5" width="449" height="118" as="geometry" />
         </mxCell>
         <mxCell id="p2nS1dNxd4ofnqSKSurf-16" value="ELBがロードバランシングしユーザーを各EC2インスタンスに振分け&lt;br&gt;EC2はアクセス負荷に応じてスケールアウト/スケールイン" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="p2nS1dNxd4ofnqSKSurf-1" vertex="1">
           <mxGeometry x="897.5" y="230.5" width="450" height="39.5" as="geometry" />
@@ -714,6 +708,12 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="ZyyOE5RFidOigAzDuxZO-0" value="ユーザーがInternet経由で仕事量システムのサイトにアクセスする&lt;br&gt;InternetGatewayにより社内IPからのみ接続可能とする" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="p2nS1dNxd4ofnqSKSurf-1">
+          <mxGeometry x="896.5" y="171.5" width="449" height="48.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Xd9kh9O_pTHx0fCUmfes-0" value="Corporate Network" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_corporate_data_center;strokeColor=#5A6C86;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#5A6C86;dashed=0;" vertex="1" parent="p2nS1dNxd4ofnqSKSurf-1">
+          <mxGeometry x="11.5" y="175" width="188.5" height="305" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -722,7 +722,7 @@
       <root>
         <mxCell id="d6b38YhOTIfzJCGzEkm7-0" />
         <mxCell id="d6b38YhOTIfzJCGzEkm7-1" parent="d6b38YhOTIfzJCGzEkm7-0" />
-        <mxCell id="0Gr9AazY3bMmgH6x3vSM-0" value="Corporate data center" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_corporate_data_center;strokeColor=#5A6C86;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#5A6C86;dashed=0;" vertex="1" parent="d6b38YhOTIfzJCGzEkm7-1">
+        <mxCell id="0Gr9AazY3bMmgH6x3vSM-0" value="Corporate Network" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_corporate_data_center;strokeColor=#5A6C86;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#5A6C86;dashed=0;" vertex="1" parent="d6b38YhOTIfzJCGzEkm7-1">
           <mxGeometry x="11.5" y="175" width="188.5" height="415" as="geometry" />
         </mxCell>
         <mxCell id="0Gr9AazY3bMmgH6x3vSM-1" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3E;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;" vertex="1" parent="d6b38YhOTIfzJCGzEkm7-1">
@@ -741,18 +741,18 @@
         <mxCell id="d6b38YhOTIfzJCGzEkm7-4" value="AWS Cloud" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud_alt;strokeColor=#232F3E;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#232F3E;dashed=0;" parent="d6b38YhOTIfzJCGzEkm7-1" vertex="1">
           <mxGeometry x="300" y="175" width="424.5" height="415" as="geometry" />
         </mxCell>
-        <mxCell id="d6b38YhOTIfzJCGzEkm7-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#545B64;strokeWidth=2;endFill=0;endArrow=open;startArrow=none;entryX=0.327;entryY=0.018;entryDx=0;entryDy=0;entryPerimeter=0;" parent="d6b38YhOTIfzJCGzEkm7-1" edge="1" target="d6b38YhOTIfzJCGzEkm7-53" source="Cadh5TgXYWytKIRXsRdz-0">
+        <mxCell id="d6b38YhOTIfzJCGzEkm7-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#545B64;strokeWidth=2;endFill=0;endArrow=open;startArrow=none;entryX=0.283;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;" parent="d6b38YhOTIfzJCGzEkm7-1" edge="1" target="d6b38YhOTIfzJCGzEkm7-53" source="Cadh5TgXYWytKIRXsRdz-0">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="150" y="370" as="sourcePoint" />
             <mxPoint x="220" y="480" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="321" y="430" />
-              <mxPoint x="321" y="430" />
+              <mxPoint x="323" y="429" />
+              <mxPoint x="323" y="429" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="d6b38YhOTIfzJCGzEkm7-53" value="Code Pipeline　　　　　　　　　　　　" style="fillColor=none;strokeColor=#5A6C86;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#5A6C86;" parent="d6b38YhOTIfzJCGzEkm7-1" vertex="1">
-          <mxGeometry x="180" y="475" width="430" height="110" as="geometry" />
+          <mxGeometry x="210" y="475" width="400" height="110" as="geometry" />
         </mxCell>
         <mxCell id="d6b38YhOTIfzJCGzEkm7-51" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;elbow=vertical;startArrow=block;startFill=1;strokeColor=#545B64;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="d6b38YhOTIfzJCGzEkm7-1" source="d6b38YhOTIfzJCGzEkm7-5" target="d6b38YhOTIfzJCGzEkm7-46" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
@@ -765,7 +765,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="d6b38YhOTIfzJCGzEkm7-49" value="Repository" style="fillColor=#EFF0F3;strokeColor=none;dashed=0;verticalAlign=top;fontStyle=0;fontColor=#232F3D;" parent="d6b38YhOTIfzJCGzEkm7-1" vertex="1">
-          <mxGeometry x="190" y="500" width="310" height="80" as="geometry" />
+          <mxGeometry x="220" y="500" width="280" height="80" as="geometry" />
         </mxCell>
         <mxCell id="d6b38YhOTIfzJCGzEkm7-2" value="VPC" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc;strokeColor=#248814;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#AAB7B8;dashed=0;" parent="d6b38YhOTIfzJCGzEkm7-1" vertex="1">
           <mxGeometry x="440" y="199" width="190" height="271" as="geometry" />
@@ -806,9 +806,6 @@
         </mxCell>
         <mxCell id="d6b38YhOTIfzJCGzEkm7-14" value="2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="d6b38YhOTIfzJCGzEkm7-1" vertex="1">
           <mxGeometry x="845.5" y="230.5" width="40" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="d6b38YhOTIfzJCGzEkm7-15" value="ユーザーがDirectConnect経由で仕事量システムのサイトにアクセスする" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="d6b38YhOTIfzJCGzEkm7-1" vertex="1">
-          <mxGeometry x="896.5" y="171.5" width="449" height="118" as="geometry" />
         </mxCell>
         <mxCell id="d6b38YhOTIfzJCGzEkm7-16" value="ELBがロードバランシングしユーザーを各EC2インスタンスに振分け&lt;br&gt;EC2はアクセス負荷に応じてスケールアウト/スケールイン" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="d6b38YhOTIfzJCGzEkm7-1" vertex="1">
           <mxGeometry x="897.5" y="230.5" width="450" height="39.5" as="geometry" />
@@ -899,10 +896,11 @@
         </mxCell>
         <mxCell id="d6b38YhOTIfzJCGzEkm7-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#545B64;strokeWidth=2;endFill=0;endArrow=open;startArrow=classic;startFill=1;" parent="d6b38YhOTIfzJCGzEkm7-1" target="d6b38YhOTIfzJCGzEkm7-37" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="560" y="296" as="sourcePoint" />
+            <mxPoint x="560" y="270" as="sourcePoint" />
             <mxPoint x="660" y="410" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="580" y="296" />
+              <mxPoint x="560" y="270" />
+              <mxPoint x="580" y="270" />
               <mxPoint x="580" y="250" />
             </Array>
           </mxGeometry>
@@ -938,7 +936,7 @@
           <mxGeometry x="518.25" y="518" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="d6b38YhOTIfzJCGzEkm7-47" value="Git" style="shape=datastore;whiteSpace=wrap;html=1;" parent="d6b38YhOTIfzJCGzEkm7-1" vertex="1">
-          <mxGeometry x="220" y="519" width="50" height="50" as="geometry" />
+          <mxGeometry x="240" y="518" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="d6b38YhOTIfzJCGzEkm7-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#545B64;strokeWidth=2;endFill=0;endArrow=open;startArrow=none;" parent="d6b38YhOTIfzJCGzEkm7-1" target="d6b38YhOTIfzJCGzEkm7-46" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -964,7 +962,7 @@
           <mxGeometry x="380" y="446.5" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="d6b38YhOTIfzJCGzEkm7-55" value="7" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontStyle=1;fontSize=22;fontColor=#ffffff;" parent="d6b38YhOTIfzJCGzEkm7-1" vertex="1">
-          <mxGeometry x="230" y="456.5" width="40" height="38" as="geometry" />
+          <mxGeometry x="250" y="453" width="40" height="38" as="geometry" />
         </mxCell>
         <mxCell id="d6b38YhOTIfzJCGzEkm7-57" value="7" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#ffffff;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="d6b38YhOTIfzJCGzEkm7-1" vertex="1">
           <mxGeometry x="845" y="502.5" width="40" height="38" as="geometry" />
@@ -994,6 +992,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="PB3rG-o2IVx28Hoa7HKQ-0" value="ユーザーがInternet経由で仕事量システムのサイトにアクセスする&lt;br&gt;InternetGatewayにより社内IPからのみ接続可能とする" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="d6b38YhOTIfzJCGzEkm7-1">
+          <mxGeometry x="896.5" y="171.5" width="449" height="48.5" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -1002,8 +1003,40 @@
       <root>
         <mxCell id="xw0HVc-cn1vhYwgIRDaj-0" />
         <mxCell id="xw0HVc-cn1vhYwgIRDaj-1" parent="xw0HVc-cn1vhYwgIRDaj-0" />
-        <mxCell id="qz7L4DlrGusUD32vIpd0-0" value="Corporate data center" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_corporate_data_center;strokeColor=#5A6C86;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#5A6C86;dashed=0;" vertex="1" parent="xw0HVc-cn1vhYwgIRDaj-1">
-          <mxGeometry x="11.5" y="175" width="188.5" height="415" as="geometry" />
+        <mxCell id="8q3FRL-uSZKOmp_dg3PA-1" value="Repository" style="fillColor=#EFF0F3;strokeColor=none;dashed=0;verticalAlign=top;fontStyle=0;fontColor=#232F3D;" vertex="1" parent="xw0HVc-cn1vhYwgIRDaj-1">
+          <mxGeometry x="220" y="500" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8q3FRL-uSZKOmp_dg3PA-2" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.codecommit;" vertex="1" parent="xw0HVc-cn1vhYwgIRDaj-1">
+          <mxGeometry x="380" y="520" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="8q3FRL-uSZKOmp_dg3PA-3" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.codedeploy;" vertex="1" parent="xw0HVc-cn1vhYwgIRDaj-1">
+          <mxGeometry x="518.25" y="518" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="8q3FRL-uSZKOmp_dg3PA-4" value="Git" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="xw0HVc-cn1vhYwgIRDaj-1">
+          <mxGeometry x="240" y="518" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8q3FRL-uSZKOmp_dg3PA-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#545B64;strokeWidth=2;endFill=0;endArrow=open;startArrow=none;" edge="1" parent="xw0HVc-cn1vhYwgIRDaj-1" target="8q3FRL-uSZKOmp_dg3PA-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="542" as="sourcePoint" />
+            <mxPoint x="384.5" y="369.1" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="542" />
+              <mxPoint x="500" y="542" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8q3FRL-uSZKOmp_dg3PA-6" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;elbow=vertical;startArrow=block;startFill=1;strokeColor=#545B64;rounded=0;" edge="1" parent="xw0HVc-cn1vhYwgIRDaj-1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="543" y="460" as="sourcePoint" />
+            <mxPoint x="543" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="543" y="490" />
+              <mxPoint x="543" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8q3FRL-uSZKOmp_dg3PA-7" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.codepipeline;" vertex="1" parent="xw0HVc-cn1vhYwgIRDaj-1">
+          <mxGeometry x="380" y="446.5" width="48" height="48" as="geometry" />
         </mxCell>
         <mxCell id="qz7L4DlrGusUD32vIpd0-1" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3E;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;" vertex="1" parent="xw0HVc-cn1vhYwgIRDaj-1">
           <mxGeometry x="30" y="330" width="58" height="58" as="geometry" />
@@ -1043,21 +1076,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xw0HVc-cn1vhYwgIRDaj-6" value="Code Pipeline　　　　　　　　　　　　" style="fillColor=none;strokeColor=#5A6C86;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#5A6C86;" parent="xw0HVc-cn1vhYwgIRDaj-1" vertex="1">
-          <mxGeometry x="180" y="475" width="430" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="xw0HVc-cn1vhYwgIRDaj-7" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;elbow=vertical;startArrow=block;startFill=1;strokeColor=#545B64;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="xw0HVc-cn1vhYwgIRDaj-1" source="xw0HVc-cn1vhYwgIRDaj-11" target="xw0HVc-cn1vhYwgIRDaj-51" edge="1">
+        <mxCell id="xw0HVc-cn1vhYwgIRDaj-7" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;elbow=vertical;startArrow=block;startFill=1;strokeColor=#545B64;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="xw0HVc-cn1vhYwgIRDaj-1" source="xw0HVc-cn1vhYwgIRDaj-11" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="340" y="410" as="sourcePoint" />
-            <mxPoint x="440" y="410" as="targetPoint" />
+            <mxPoint x="533" y="518" as="targetPoint" />
             <Array as="points">
               <mxPoint x="533" y="480" />
               <mxPoint x="533" y="480" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="xw0HVc-cn1vhYwgIRDaj-8" value="Repository" style="fillColor=#EFF0F3;strokeColor=none;dashed=0;verticalAlign=top;fontStyle=0;fontColor=#232F3D;" parent="xw0HVc-cn1vhYwgIRDaj-1" vertex="1">
-          <mxGeometry x="190" y="500" width="310" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xw0HVc-cn1vhYwgIRDaj-9" value="VPC" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc;strokeColor=#248814;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#AAB7B8;dashed=0;" parent="xw0HVc-cn1vhYwgIRDaj-1" vertex="1">
           <mxGeometry x="440" y="199" width="190" height="271" as="geometry" />
@@ -1098,9 +1125,6 @@
         </mxCell>
         <mxCell id="xw0HVc-cn1vhYwgIRDaj-19" value="2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="xw0HVc-cn1vhYwgIRDaj-1" vertex="1">
           <mxGeometry x="845.5" y="230.5" width="40" height="38" as="geometry" />
-        </mxCell>
-        <mxCell id="xw0HVc-cn1vhYwgIRDaj-20" value="ユーザーがDirectConnect経由で仕事量システムのサイトにアクセスする" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="xw0HVc-cn1vhYwgIRDaj-1" vertex="1">
-          <mxGeometry x="896.5" y="171.5" width="449" height="118" as="geometry" />
         </mxCell>
         <mxCell id="xw0HVc-cn1vhYwgIRDaj-21" value="ELBがロードバランシングしユーザーを各EC2インスタンスに振分け&lt;br&gt;EC2はアクセス負荷に応じてスケールアウト/スケールイン" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="xw0HVc-cn1vhYwgIRDaj-1" vertex="1">
           <mxGeometry x="897.5" y="230.5" width="450" height="39.5" as="geometry" />
@@ -1191,10 +1215,11 @@
         </mxCell>
         <mxCell id="xw0HVc-cn1vhYwgIRDaj-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#545B64;strokeWidth=2;endFill=0;endArrow=open;startArrow=classic;startFill=1;" parent="xw0HVc-cn1vhYwgIRDaj-1" target="xw0HVc-cn1vhYwgIRDaj-42" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="560" y="296" as="sourcePoint" />
+            <mxPoint x="560" y="270" as="sourcePoint" />
             <mxPoint x="660" y="410" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="580" y="296" />
+              <mxPoint x="560" y="270" />
+              <mxPoint x="580" y="270" />
               <mxPoint x="580" y="250" />
             </Array>
           </mxGeometry>
@@ -1223,19 +1248,10 @@
         <mxCell id="xw0HVc-cn1vhYwgIRDaj-49" value="CloudFormationの設定を行うことで、EC2を自動で用意することが可能&lt;br&gt;&lt;br&gt;例えばEC2を夜間帯に削除、朝方にデプロイしたい…&lt;br&gt;→手動で実施することなく、勝手に準備してくれる" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="xw0HVc-cn1vhYwgIRDaj-1" vertex="1">
           <mxGeometry x="885" y="630" width="450" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="xw0HVc-cn1vhYwgIRDaj-50" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.codecommit;" parent="xw0HVc-cn1vhYwgIRDaj-1" vertex="1">
-          <mxGeometry x="380" y="520" width="48" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="xw0HVc-cn1vhYwgIRDaj-51" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.codedeploy;" parent="xw0HVc-cn1vhYwgIRDaj-1" vertex="1">
-          <mxGeometry x="518.25" y="518" width="48" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="xw0HVc-cn1vhYwgIRDaj-52" value="Git" style="shape=datastore;whiteSpace=wrap;html=1;" parent="xw0HVc-cn1vhYwgIRDaj-1" vertex="1">
-          <mxGeometry x="220" y="519" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="xw0HVc-cn1vhYwgIRDaj-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#545B64;strokeWidth=2;endFill=0;endArrow=open;startArrow=none;" parent="xw0HVc-cn1vhYwgIRDaj-1" target="xw0HVc-cn1vhYwgIRDaj-51" edge="1">
+        <mxCell id="xw0HVc-cn1vhYwgIRDaj-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#545B64;strokeWidth=2;endFill=0;endArrow=open;startArrow=none;" parent="xw0HVc-cn1vhYwgIRDaj-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="500" y="542" as="sourcePoint" />
-            <mxPoint x="384.5" y="369.1" as="targetPoint" />
+            <mxPoint x="518.25" y="542" as="targetPoint" />
             <Array as="points">
               <mxPoint x="500" y="542" />
               <mxPoint x="500" y="542" />
@@ -1254,9 +1270,6 @@
         </mxCell>
         <mxCell id="xw0HVc-cn1vhYwgIRDaj-55" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.codepipeline;" parent="xw0HVc-cn1vhYwgIRDaj-1" vertex="1">
           <mxGeometry x="380" y="446.5" width="48" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="xw0HVc-cn1vhYwgIRDaj-56" value="7" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontStyle=1;fontSize=22;fontColor=#ffffff;" parent="xw0HVc-cn1vhYwgIRDaj-1" vertex="1">
-          <mxGeometry x="230" y="456.5" width="40" height="38" as="geometry" />
         </mxCell>
         <mxCell id="xw0HVc-cn1vhYwgIRDaj-57" value="7" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#ffffff;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="xw0HVc-cn1vhYwgIRDaj-1" vertex="1">
           <mxGeometry x="845" y="502.5" width="40" height="38" as="geometry" />
@@ -1286,6 +1299,18 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="9SK22lpavYjI0GxRVAqH-0" value="ユーザーがInternet経由で仕事量システムのサイトにアクセスする&lt;br&gt;InternetGatewayにより社内IPからのみ接続可能とする" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="xw0HVc-cn1vhYwgIRDaj-1">
+          <mxGeometry x="896.5" y="171.5" width="449" height="48.5" as="geometry" />
+        </mxCell>
+        <mxCell id="r3yb3wWtyRS6jvji9pya-0" value="Corporate Network" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_corporate_data_center;strokeColor=#5A6C86;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#5A6C86;dashed=0;" vertex="1" parent="xw0HVc-cn1vhYwgIRDaj-1">
+          <mxGeometry x="11.5" y="175" width="188.5" height="415" as="geometry" />
+        </mxCell>
+        <mxCell id="8q3FRL-uSZKOmp_dg3PA-0" value="Code Pipeline　　　　　　　　　　　　" style="fillColor=none;strokeColor=#5A6C86;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#5A6C86;" vertex="1" parent="xw0HVc-cn1vhYwgIRDaj-1">
+          <mxGeometry x="210" y="475" width="400" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="8q3FRL-uSZKOmp_dg3PA-8" value="7" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontStyle=1;fontSize=22;fontColor=#ffffff;" vertex="1" parent="xw0HVc-cn1vhYwgIRDaj-1">
+          <mxGeometry x="250" y="453" width="40" height="38" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -1297,16 +1322,22 @@
         <mxCell id="45-tnoo9_IyfRHWpL83M-5" value="AWS Cloud" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud_alt;strokeColor=#232F3E;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#232F3E;dashed=0;" parent="45-tnoo9_IyfRHWpL83M-1" vertex="1">
           <mxGeometry x="300" y="175" width="424.5" height="415" as="geometry" />
         </mxCell>
+        <mxCell id="HXAqpJ97QmUJvxh1jmm5-1" value="Repository" style="fillColor=#EFF0F3;strokeColor=none;dashed=0;verticalAlign=top;fontStyle=0;fontColor=#232F3D;" vertex="1" parent="45-tnoo9_IyfRHWpL83M-1">
+          <mxGeometry x="220" y="500" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HXAqpJ97QmUJvxh1jmm5-2" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.codecommit;" vertex="1" parent="45-tnoo9_IyfRHWpL83M-1">
+          <mxGeometry x="380" y="520" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="HXAqpJ97QmUJvxh1jmm5-4" value="Git" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="45-tnoo9_IyfRHWpL83M-1">
+          <mxGeometry x="240" y="518" width="50" height="50" as="geometry" />
+        </mxCell>
         <mxCell id="45-tnoo9_IyfRHWpL83M-64" value="Amplify Framework" style="fillColor=none;strokeColor=#5A6C86;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#5A6C86;" parent="45-tnoo9_IyfRHWpL83M-1" vertex="1">
           <mxGeometry x="400" y="220.5" width="230" height="219.5" as="geometry" />
         </mxCell>
-        <mxCell id="45-tnoo9_IyfRHWpL83M-2" value="Corporate data center" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_corporate_data_center;strokeColor=#5A6C86;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#5A6C86;dashed=0;" parent="45-tnoo9_IyfRHWpL83M-1" vertex="1">
-          <mxGeometry x="11.5" y="175" width="188.5" height="415" as="geometry" />
-        </mxCell>
-        <mxCell id="45-tnoo9_IyfRHWpL83M-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#545B64;strokeWidth=2;endFill=0;endArrow=open;startArrow=none;entryX=0.442;entryY=-0.018;entryDx=0;entryDy=0;entryPerimeter=0;" parent="45-tnoo9_IyfRHWpL83M-1" edge="1" target="45-tnoo9_IyfRHWpL83M-6" source="aHdGlwTpFmlHgwOPZ9Ik-0">
+        <mxCell id="45-tnoo9_IyfRHWpL83M-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#545B64;strokeWidth=2;endFill=0;endArrow=open;startArrow=none;" parent="45-tnoo9_IyfRHWpL83M-1" edge="1" source="aHdGlwTpFmlHgwOPZ9Ik-0">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="150" y="370" as="sourcePoint" />
-            <mxPoint x="220" y="480" as="targetPoint" />
+            <mxPoint x="326" y="473" as="targetPoint" />
             <Array as="points">
               <mxPoint x="326" y="420" />
               <mxPoint x="326" y="420" />
@@ -1314,7 +1345,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="45-tnoo9_IyfRHWpL83M-6" value="" style="fillColor=none;strokeColor=#5A6C86;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#5A6C86;" parent="45-tnoo9_IyfRHWpL83M-1" vertex="1">
-          <mxGeometry x="180" y="475" width="330" height="110" as="geometry" />
+          <mxGeometry x="210" y="475" width="300" height="110" as="geometry" />
         </mxCell>
         <mxCell id="45-tnoo9_IyfRHWpL83M-7" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;elbow=vertical;startArrow=block;startFill=1;strokeColor=#545B64;rounded=0;" parent="45-tnoo9_IyfRHWpL83M-1" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
@@ -1325,9 +1356,6 @@
               <mxPoint x="460" y="460" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="45-tnoo9_IyfRHWpL83M-8" value="Repository" style="fillColor=#EFF0F3;strokeColor=none;dashed=0;verticalAlign=top;fontStyle=0;fontColor=#232F3D;" parent="45-tnoo9_IyfRHWpL83M-1" vertex="1">
-          <mxGeometry x="190" y="500" width="310" height="80" as="geometry" />
         </mxCell>
         <mxCell id="45-tnoo9_IyfRHWpL83M-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;fontSize=22;strokeColor=#d6b656;labelBackgroundColor=none;" parent="45-tnoo9_IyfRHWpL83M-1" vertex="1">
           <mxGeometry x="827" y="580" width="539" height="110" as="geometry" />
@@ -1363,9 +1391,6 @@
         <mxCell id="45-tnoo9_IyfRHWpL83M-19" value="2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="45-tnoo9_IyfRHWpL83M-1" vertex="1">
           <mxGeometry x="845.5" y="230.5" width="40" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="45-tnoo9_IyfRHWpL83M-20" value="ユーザーがDirectConnect経由で仕事量システムのサイトにアクセスする" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="45-tnoo9_IyfRHWpL83M-1" vertex="1">
-          <mxGeometry x="896.5" y="171.5" width="449" height="118" as="geometry" />
-        </mxCell>
         <mxCell id="45-tnoo9_IyfRHWpL83M-21" value="Amplify Frameworkで用意したAmplifyホスティングサービスに接続&lt;br&gt;フルマネージドでサーバー管理が不要" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="45-tnoo9_IyfRHWpL83M-1" vertex="1">
           <mxGeometry x="897.5" y="230.5" width="450" height="39.5" as="geometry" />
         </mxCell>
@@ -1382,10 +1407,7 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="558.5" y="290" as="sourcePoint" />
             <mxPoint x="650" y="359" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="610" y="400" />
-              <mxPoint x="610" y="400" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="45-tnoo9_IyfRHWpL83M-31" value="3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="45-tnoo9_IyfRHWpL83M-1" vertex="1">
@@ -1440,25 +1462,16 @@
         <mxCell id="45-tnoo9_IyfRHWpL83M-49" value="全てをサーバーレスアーキテクチャでまとめることができ、管理者はサーバーを意識する必要がない&lt;br&gt;&lt;br&gt;AmplifyではJavascript系コードを利用する為、全面的な見直しが必要&lt;br&gt;Appsyncで利用可能なのはGraphQL、REST APIなど" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="45-tnoo9_IyfRHWpL83M-1" vertex="1">
           <mxGeometry x="885" y="590" width="450" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="45-tnoo9_IyfRHWpL83M-50" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.codecommit;" parent="45-tnoo9_IyfRHWpL83M-1" vertex="1">
-          <mxGeometry x="380" y="520" width="48" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="45-tnoo9_IyfRHWpL83M-52" value="Git" style="shape=datastore;whiteSpace=wrap;html=1;" parent="45-tnoo9_IyfRHWpL83M-1" vertex="1">
-          <mxGeometry x="220" y="519" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="45-tnoo9_IyfRHWpL83M-56" value="7" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontStyle=1;fontSize=22;fontColor=#ffffff;" parent="45-tnoo9_IyfRHWpL83M-1" vertex="1">
-          <mxGeometry x="230" y="456.5" width="40" height="38" as="geometry" />
-        </mxCell>
         <mxCell id="45-tnoo9_IyfRHWpL83M-57" value="7" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#ffffff;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="45-tnoo9_IyfRHWpL83M-1" vertex="1">
           <mxGeometry x="845" y="502.5" width="40" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="45-tnoo9_IyfRHWpL83M-58" value="CodeCommit(またはGit)でコードを管理&lt;br&gt;変更したコードAmplifyConsole/CLIでAmplifyに反映" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="45-tnoo9_IyfRHWpL83M-1" vertex="1">
+        <mxCell id="45-tnoo9_IyfRHWpL83M-58" value="CodeCommit(またはGit)でコードを管理&lt;br&gt;変更したコードはAmplifyConsole/CLIでAmplifyに反映" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="45-tnoo9_IyfRHWpL83M-1" vertex="1">
           <mxGeometry x="897" y="503" width="450" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="45-tnoo9_IyfRHWpL83M-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#545B64;strokeWidth=2;endFill=0;endArrow=open;startArrow=none;entryX=0.121;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;" parent="45-tnoo9_IyfRHWpL83M-1" target="45-tnoo9_IyfRHWpL83M-6" edge="1">
+        <mxCell id="45-tnoo9_IyfRHWpL83M-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#545B64;strokeWidth=2;endFill=0;endArrow=open;startArrow=none;" parent="45-tnoo9_IyfRHWpL83M-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="220" y="360" as="sourcePoint" />
-            <mxPoint x="384.5" y="369.1" as="targetPoint" />
+            <mxPoint x="220" y="474" as="targetPoint" />
             <Array as="points">
               <mxPoint x="220" y="430" />
               <mxPoint x="220" y="430" />
@@ -1503,6 +1516,15 @@
             <mxPoint x="300" y="359" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="rFty3jXKks4TMrkxDGDq-0" value="ユーザーがInternet経由で仕事量システムのサイトにアクセスする&lt;br&gt;InternetGatewayにより社内IPからのみ接続可能とする" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="45-tnoo9_IyfRHWpL83M-1">
+          <mxGeometry x="896.5" y="171.5" width="449" height="48.5" as="geometry" />
+        </mxCell>
+        <mxCell id="u9jZcI5W3onBLxNYAWyH-0" value="Corporate Network" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_corporate_data_center;strokeColor=#5A6C86;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#5A6C86;dashed=0;" vertex="1" parent="45-tnoo9_IyfRHWpL83M-1">
+          <mxGeometry x="11.5" y="175" width="188.5" height="415" as="geometry" />
+        </mxCell>
+        <mxCell id="HXAqpJ97QmUJvxh1jmm5-8" value="7" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontStyle=1;fontSize=22;fontColor=#ffffff;" vertex="1" parent="45-tnoo9_IyfRHWpL83M-1">
+          <mxGeometry x="250" y="453" width="40" height="38" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

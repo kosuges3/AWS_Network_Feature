@@ -1,4 +1,4 @@
-<mxfile modified="2020-07-30T18:15:53.112Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="2mMDLw4BBKXrjSVqrOq3" version="13.5.7" type="github" pages="7">
+<mxfile modified="2020-07-30T18:18:57.800Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="Y5cqoiukkgsHXAjTw7Rr" version="13.5.7" type="github" pages="7">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Step2">
     <mxGraphModel dx="782" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -970,12 +970,13 @@
         <mxCell id="d6b38YhOTIfzJCGzEkm7-58" value="CodeCommit(またはGit)でコードを管理&lt;br&gt;変更したコードをCodeDeployでEC2にデプロイ&lt;br&gt;CodePipelineで一連のフローを自動化" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="d6b38YhOTIfzJCGzEkm7-1" vertex="1">
           <mxGeometry x="897" y="503" width="450" height="54.5" as="geometry" />
         </mxCell>
-        <mxCell id="d6b38YhOTIfzJCGzEkm7-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#545B64;strokeWidth=2;endFill=0;endArrow=open;startArrow=none;entryX=0.093;entryY=0.012;entryDx=0;entryDy=0;entryPerimeter=0;" parent="d6b38YhOTIfzJCGzEkm7-1" target="d6b38YhOTIfzJCGzEkm7-53" edge="1">
+        <mxCell id="d6b38YhOTIfzJCGzEkm7-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#545B64;strokeWidth=2;endFill=0;endArrow=open;startArrow=none;entryX=0.022;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;" parent="d6b38YhOTIfzJCGzEkm7-1" target="d6b38YhOTIfzJCGzEkm7-53" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="220" y="360" as="sourcePoint" />
+            <mxPoint x="219" y="360" as="sourcePoint" />
             <mxPoint x="384.5" y="369.1" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="220" y="360" />
+              <mxPoint x="219" y="420" />
+              <mxPoint x="219" y="420" />
             </Array>
           </mxGeometry>
         </mxCell>

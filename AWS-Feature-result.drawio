@@ -1,4 +1,4 @@
-<mxfile modified="2020-09-30T04:49:33.522Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="y47mespCGUWIXOuPgScH" version="13.7.5" type="github" pages="9">
+<mxfile modified="2020-09-30T04:55:55.684Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="whlmvDe38jXUB5Snj8a2" version="13.7.6" type="github" pages="9">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Step2">
     <mxGraphModel dx="1422" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -57,7 +57,7 @@
         <mxCell id="7OVz4w7n9kzEPWy-4BBC-5" value="2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="845.5" y="230.5" width="40" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="7OVz4w7n9kzEPWy-4BBC-13" value="ユーザーがInternet経由で仕事量システムのサイトにアクセスする&lt;br&gt;セキュリティグループにより社内IPからのみアクセスを許可" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="7OVz4w7n9kzEPWy-4BBC-13" value="ユーザーがInternet経由で仕事量システムのサイトにアクセスする&lt;br&gt;AWSのInternetGatewayを経由し、ELBに接続&lt;br&gt;このときセキュリティグループにより社内IPからのみアクセスを許可" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="896.5" y="171.5" width="449" height="48.5" as="geometry" />
         </mxCell>
         <mxCell id="7OVz4w7n9kzEPWy-4BBC-14" value="&lt;span&gt;ELBがロードバランシングしユーザーを各EC2インスタンスに振分け&lt;br&gt;EC2はアクセス負荷に応じてスケールアウト/スケールイン&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
@@ -1788,9 +1788,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1EYVaQsXi1obPIv66B7p-61" value="ユーザーがInternet経由で仕事量サーバーと連携したELBにアクセス&lt;br&gt;セキュリティグループにより社内IPからのみアクセスを許可" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1EYVaQsXi1obPIv66B7p-1" vertex="1">
-          <mxGeometry x="896.5" y="172.5" width="449" height="48.5" as="geometry" />
-        </mxCell>
         <mxCell id="1EYVaQsXi1obPIv66B7p-62" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=5;" parent="1EYVaQsXi1obPIv66B7p-1" vertex="1">
           <mxGeometry x="640" y="235" width="70" height="60" as="geometry" />
         </mxCell>
@@ -1834,7 +1831,7 @@
         <mxCell id="cUYfU7ZU02hiPWBdk8Hm-3" value="SimpleEmailServiceを利用して、毎月の入力案内メールを自動配信&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;→検証間に合わず実装断念&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1EYVaQsXi1obPIv66B7p-1" vertex="1">
           <mxGeometry x="898" y="553.75" width="450" height="54.5" as="geometry" />
         </mxCell>
-        <mxCell id="sAVCZUNyuDA2Y9vs_njN-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#545B64;strokeWidth=2;endFill=0;endArrow=open;startArrow=none;" edge="1" parent="1EYVaQsXi1obPIv66B7p-1" source="1EYVaQsXi1obPIv66B7p-65">
+        <mxCell id="sAVCZUNyuDA2Y9vs_njN-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#545B64;strokeWidth=2;endFill=0;endArrow=open;startArrow=none;" parent="1EYVaQsXi1obPIv66B7p-1" source="1EYVaQsXi1obPIv66B7p-65" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="680" y="533" as="sourcePoint" />
             <mxPoint x="679" y="610" as="targetPoint" />
@@ -1846,6 +1843,9 @@
         </mxCell>
         <mxCell id="1EYVaQsXi1obPIv66B7p-69" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=5;" parent="1EYVaQsXi1obPIv66B7p-1" vertex="1">
           <mxGeometry x="659" y="550.5" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E11_xWXig4mbXqDaNKkE-1" value="ユーザーがInternet経由で仕事量システムのサイトにアクセスする&lt;br&gt;AWSのInternetGatewayを経由し、ELBに接続&lt;br&gt;このときセキュリティグループにより社内IPからのみアクセスを許可" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1EYVaQsXi1obPIv66B7p-1">
+          <mxGeometry x="898.5" y="172" width="449" height="48.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

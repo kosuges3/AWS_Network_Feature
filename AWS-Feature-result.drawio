@@ -1,4 +1,4 @@
-<mxfile modified="2020-09-30T04:57:06.829Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="CDdO132w6btJnUVB7jLt" version="13.7.6" type="github" pages="9">
+<mxfile modified="2020-10-02T09:46:52.010Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="zaLF4gJ4kNqv_3MYwSVy" version="13.7.6" type="github" pages="9">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Step2">
     <mxGraphModel dx="1422" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1533,7 +1533,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="result" id="vZeKFMCfPDzvv-vWAan3">
-    <mxGraphModel dx="1422" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="1EYVaQsXi1obPIv66B7p-0" />
         <mxCell id="1EYVaQsXi1obPIv66B7p-1" parent="1EYVaQsXi1obPIv66B7p-0" />
@@ -1800,16 +1800,6 @@
         <mxCell id="1EYVaQsXi1obPIv66B7p-65" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" parent="1EYVaQsXi1obPIv66B7p-1" vertex="1">
           <mxGeometry x="650" y="480" width="53" height="53" as="geometry" />
         </mxCell>
-        <mxCell id="1EYVaQsXi1obPIv66B7p-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#545B64;strokeWidth=2;endFill=0;endArrow=open;startArrow=none;" parent="1EYVaQsXi1obPIv66B7p-1" source="1EYVaQsXi1obPIv66B7p-35" target="1EYVaQsXi1obPIv66B7p-65" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="623.75" y="645" as="sourcePoint" />
-            <mxPoint x="675" y="462" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="677" y="440" />
-              <mxPoint x="677" y="440" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="1EYVaQsXi1obPIv66B7p-70" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=5;" parent="1EYVaQsXi1obPIv66B7p-1" vertex="1">
           <mxGeometry x="405.75" y="608.25" width="70" height="60" as="geometry" />
         </mxCell>
@@ -1841,11 +1831,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1EYVaQsXi1obPIv66B7p-69" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=5;" parent="1EYVaQsXi1obPIv66B7p-1" vertex="1">
-          <mxGeometry x="659" y="550.5" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="E11_xWXig4mbXqDaNKkE-1" value="ユーザーがInternet経由で仕事量システムのサイトにアクセスする&lt;br&gt;AWSのInternetGatewayを経由し、ELBに接続&lt;br&gt;このときセキュリティグループにより社内IPからのみアクセスを許可" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1EYVaQsXi1obPIv66B7p-1">
+        <mxCell id="E11_xWXig4mbXqDaNKkE-1" value="ユーザーがInternet経由で仕事量システムのサイトにアクセスする&lt;br&gt;AWSのInternetGatewayを経由し、ELBに接続&lt;br&gt;このときセキュリティグループにより社内IPからのみアクセスを許可" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" parent="1EYVaQsXi1obPIv66B7p-1" vertex="1">
           <mxGeometry x="898.5" y="172" width="449" height="48.5" as="geometry" />
+        </mxCell>
+        <mxCell id="UGTOQllFnaSBwuCmEUQF-0" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=5;" vertex="1" parent="1EYVaQsXi1obPIv66B7p-1">
+          <mxGeometry x="646" y="552.25" width="66" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
